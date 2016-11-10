@@ -7144,7 +7144,7 @@ a:hover{
 
 
 .top-nav-collapse{
-  background-color: #3b1717 !important;
+  background-color: rgba(255, 255, 255, 0.71) !important;
   margin-top: 0px !important;
 }
 
@@ -8282,7 +8282,7 @@ a:hover.back-to-top {
 }
 
 .sfooter{
-  background-color: #3b1717;
+  background-color: rgba(255, 255, 255, 0.71);
   padding: 30px 0px 45px;
   padding-top: 30px;
   padding-bottom: 22px;
@@ -8495,7 +8495,7 @@ display: none;
 }
 
 .font-f{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Oxygen', sans-serif;
 }
 
 
