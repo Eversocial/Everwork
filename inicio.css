@@ -7144,7 +7144,7 @@ a:hover{
 
 
 .top-nav-collapse{
-  background-color: rgba(255, 255, 255, 0.71) !important;
+  /*background-color: rgba(255, 255, 255, 0.71) !important;*/
   margin-top: 0px !important;
 }
 
@@ -8460,6 +8460,9 @@ a:hover.back-to-top {
     margin: 0px;
 }
 
+.font-f{
+font-family: 'Oxygen', sans-serif;
+}
 
 
 
@@ -8475,7 +8478,11 @@ font-family: 'Oxygen', sans-serif;
 }
 
 .owl-carousel{
+<<<<<<< HEAD
+   width: 492px !important;
+=======
    width: 42% !important;
+>>>>>>> master
    margin: auto;
 
 }
@@ -8505,14 +8512,64 @@ font-family: 'Oxygen', sans-serif;
 }
 
 #slide{
-  background-image: url('FotosyHerramientasEverwork/heading-everwork.jpg');
+  background-image: url('FotosyHerramientasEverwork/heading-everwork-bw.jpg');
   height: 400px;
   background-size: cover;
   background-position: center;
 }
 
+.cont-descripcion{
+  padding: 1rem;
+}
 
+.cont-descripcion .font-f{
+  font-size: 17px;
+  padding-bottom:0px;
+  text-align: center;
+  color: #888;
+}
 
+.cont-servicios{
+  padding: 1rem;
+}
+
+.cont-servicios h4{
+  font-size: 20px;
+  color: #888;
+  margin: 0px 0px 10px;
+}
+
+.cont-servicios i{
+  padding-bottom: 25px;
+  display: inline;
+  color: #fa6464;
+}
+
+.cont-servicios p{
+  font-size:15px;
+  display: inline;
+  margin-left:10px;
+  color:#888;
+  vertical-align: super;
+}
+
+.cont-item-servicio{
+  margin-top:10px;
+  text-align:center;
+}
+
+.pdescp{
+  font-size:13px !important;
+  display:inline !important;
+  margin-left:3px !important;
+  color:#888 !important;
+}
+
+.cont-precio{
+  height: 68px;
+  padding: 17px;
+  border-right: 1px solid #eeeeee;
+}
 
 /*.owl-carousel .owl-item {
     float: left;
@@ -8531,6 +8588,8 @@ display: none;
  display: none;
 }
 
+<<<<<<< HEAD
+=======
 .owl-next{
   display: none;
 }
