@@ -7144,7 +7144,7 @@ a:hover{
 
 
 .top-nav-collapse{
-  background-color: rgba(255, 255, 255, 0.71) !important;
+  /*background-color: rgba(255, 255, 255, 0.71) !important;*/
   margin-top: 0px !important;
 }
 
@@ -8492,11 +8492,7 @@ font-family: 'Oxygen', sans-serif;
     zoom: 1;
     color:red;
 }
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> master
  .owl-theme .owl-controls .owl-dots span {
     display: block;
     width: 12px;
@@ -8512,22 +8508,56 @@ font-family: 'Oxygen', sans-serif;
 
 .owl-theme .owl-controls .owl-dot.active span {
     background-color: rgb(253, 178, 178);
-<<<<<<< HEAD
-
-=======
 
 }
 
 #slide{
-  background-image: url('FotosyHerramientasEverwork/heading-everwork.jpg');
+  background-image: url('FotosyHerramientasEverwork/heading-everwork-bw.jpg');
   height: 400px;
   background-size: cover;
   background-position: center;
->>>>>>> master
 }
 
+.cont-descripcion{
+  padding: 1rem;
+}
 
+.cont-descripcion .font-f{
+  font-size: 17px;
+  padding-bottom:0px;
+  text-align: left;
+  color: #888;
+}
 
+.cont-servicios{
+  padding: 1rem;
+}
+
+.cont-servicios h4{
+  font-size: 20px;
+  color: #888;
+  margin: 0px 0px 10px;
+}
+
+.cont-servicios i{
+  padding-bottom: 25px;
+  display: inline;
+  color: #fa6464;
+}
+
+.cont-servicios p{
+  font-size:14px;
+  display: inline;
+  margin-left:10px;
+  color:#888;
+}
+
+.pdescp{
+  font-size:12px !important;
+  display:inline !important;
+  margin-left:3px !important;
+  color:#888 !important;
+}
 
 /*.owl-carousel .owl-item {
     float: left;
@@ -8555,4 +8585,3 @@ display: none;
 .owl-controls{
   display: none !important;
 }*/
->>>>>>> master
