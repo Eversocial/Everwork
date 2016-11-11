@@ -8525,6 +8525,7 @@ font-family: 'Oxygen', sans-serif;
 .cont-descripcion .font-f{
   font-size: 17px;
   padding-bottom:0px;
+<<<<<<< HEAD
   text-align: left;
   color: #888;
 }
@@ -8539,6 +8540,22 @@ font-family: 'Oxygen', sans-serif;
   margin: 0px 0px 10px;
 }
 
+=======
+  text-align: center;
+  color: #888;
+}
+
+.cont-servicios{
+  padding: 1rem;
+}
+
+.cont-servicios h4{
+  font-size: 20px;
+  color: #888;
+  margin: 0px 0px 10px;
+}
+
+>>>>>>> master
 .cont-servicios i{
   padding-bottom: 25px;
   display: inline;
@@ -8546,6 +8563,7 @@ font-family: 'Oxygen', sans-serif;
 }
 
 .cont-servicios p{
+<<<<<<< HEAD
   font-size:14px;
   display: inline;
   margin-left:10px;
@@ -8554,10 +8572,35 @@ font-family: 'Oxygen', sans-serif;
 
 .pdescp{
   font-size:12px !important;
+=======
+  font-size:15px;
+  display: inline;
+  margin-left:10px;
+  color:#888;
+  vertical-align: super;
+}
+
+.cont-item-servicio{
+  margin-top:10px;
+  text-align:center;
+}
+
+.pdescp{
+  font-size:13px !important;
+>>>>>>> master
   display:inline !important;
   margin-left:3px !important;
   color:#888 !important;
 }
+<<<<<<< HEAD
+=======
+
+.cont-precio{
+  height: 68px;
+  padding: 17px;
+  border-right: 1px solid #eeeeee;
+}
+>>>>>>> master
 
 /*.owl-carousel .owl-item {
     float: left;
