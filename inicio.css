@@ -4222,7 +4222,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  
+
   /*background-color: #eeeeee;*/
 }
 
@@ -7228,7 +7228,7 @@ a:hover{
     margin-left: 288px !important;
   }
 
-  
+
 
 .font-redessup{
   font-size: 20px;
@@ -7597,7 +7597,7 @@ font-size: 26px;
 
 }
 
-#myimagine .carousel .item img {  
+#myimagine .carousel .item img {
     margin-top: 10px;
 }
 
@@ -8282,10 +8282,8 @@ a:hover.back-to-top {
 }
 
 .sfooter{
-  background-color: rgba(255, 255, 255, 0.71);
-  padding: 30px 0px 45px;
-  padding-top: 30px;
-  padding-bottom: 22px;
+  background-color: rgb(250, 100, 100);
+  padding: 5px !important;
 }
 
 .sfooter .font-mbtx{
@@ -8441,7 +8439,7 @@ a:hover.back-to-top {
 }
 
 #main-comunidades .nav-tabs .active{
-  border-left:1px solid #f99232 !important; 
+  border-left:1px solid #f99232 !important;
 }
 
 #main-comunidades .nav-tabs li {
@@ -8466,6 +8464,13 @@ a:hover.back-to-top {
 font-family: 'Oxygen', sans-serif;
 }
 
+
+
+.font-f{
+font-family: 'Oxygen', sans-serif;
+}
+
+
 #owl-demo .item img{
     display: block;
     width: 100%;
@@ -8473,7 +8478,11 @@ font-family: 'Oxygen', sans-serif;
 }
 
 .owl-carousel{
+<<<<<<< HEAD
    width: 492px !important;
+=======
+   width: 42% !important;
+>>>>>>> master
    margin: auto;
 
 }
@@ -8483,7 +8492,11 @@ font-family: 'Oxygen', sans-serif;
     zoom: 1;
     color:red;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> master
  .owl-theme .owl-controls .owl-dots span {
     display: block;
     width: 12px;
@@ -8499,14 +8512,47 @@ font-family: 'Oxygen', sans-serif;
 
 .owl-theme .owl-controls .owl-dot.active span {
     background-color: rgb(253, 178, 178);
+<<<<<<< HEAD
 
+=======
+
+}
+
+#slide{
+  background-image: url('FotosyHerramientasEverwork/heading-everwork.jpg');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+>>>>>>> master
 }
 
 
 
 
+/*.owl-carousel .owl-item {
+    float: left;
 
+    margin-top: -103px;
 
+}
 
+.owl-prev
+{
+display: none;
+}
 
+.owl-buttons
+{
+ display: none;
+}
 
+<<<<<<< HEAD
+=======
+.owl-next{
+  display: none;
+}
+
+.owl-controls{
+  display: none !important;
+}*/
+>>>>>>> master
