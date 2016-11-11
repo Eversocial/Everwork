@@ -9,11 +9,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
     <link href="inicio.css" rel="stylesheet" type="text/css">
+    <link href="owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="owl.theme.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="./js/scrolling-nav.js"></script>
-     <script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
       <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-      <script src="jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="owl.carousel.js"></script>
+      <script type="text/javascript" src="owl.carousel.min.js"></script>
+
 
   </head>
 
@@ -124,12 +129,19 @@
 <div class="section" style="margin-bottom: -20px">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center" >
-      <img src="FotosyHerramientasEverwork/img1.jpg" alt="i2" class="img-responsive" style="width: 578px !important;margin: 0 auto">
-    </div>
+<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item"><img src="FotosyHerramientasEverwork/img2.jpg" style="width:500px;height:300px" ></div>
+  <div class="item"><img src="FotosyHerramientasEverwork/img3.jpg" style="width:500px;height:300px"></div>
+  <div class="item"><img src="FotosyHerramientasEverwork/img1.jpg" style="width:500px;height:300px"></div>
+<div class="item"><img src="FotosyHerramientasEverwork/IMG_2655.jpg" style="width:500px;height:300px"></div>
 
-      </div>
-  </div>
+  
+ 
+</div>
+
+</div>
+</div>
 </div>
 
 <footer class="section sfooter">
@@ -150,6 +162,7 @@
 
 
 </body>
+
 <script type="text/javascript">
 $(document).ready(function() {
  
@@ -159,8 +172,18 @@ $(document).ready(function() {
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true,
-      autoPlay:true
-      
+      loop:true,
+      items:1,
+     autoplay:true,
+    autoplayTimeout:5000
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
  
   });
  
